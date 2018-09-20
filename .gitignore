@@ -16,7 +16,6 @@ Thumbs.db
 .RData
 .Ruserdata
 .Rproj.user/
-.Rbuildignore
 packrat/lib*/
 packrat/src/
 
