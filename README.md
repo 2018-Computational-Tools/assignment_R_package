@@ -48,3 +48,8 @@
 
  - to check proper formatting, all examples, and all tests of the package: `devtools::check()` (`Ctrl/Cmd` + `Shift` + `E`)
 
+## Build package
+
+ - to build and formally install the package from within this project: `devtools::install()` (`Ctrl/Cmd` + `Shift` + `B`)
+ - to install it from GitHub: `devtools::install_github('USER/REPO')`
+ 
