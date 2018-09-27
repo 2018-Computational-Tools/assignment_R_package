@@ -24,6 +24,7 @@
  - load the package directly into memory: `devtools::load_all()` (`Ctrl/Cmd` + `Shift` + `L`)
  - call your function from the console to test it, e.g. with `add_numbers(2, 5)`
  - NOTE: all package functions are available if loaded this way but only the ones that have `@export` in their documentation will be made available to your users via regular installation
+ - NOTE: consistent naming conventions for package files are very useful for your users to easily find what they are looking for. I personally recommend using a 2-3 letter + `_` prefix for **all** functions in your package (e.g. `yay_add_numbers`, `yay_multiply_numbers`) because it makes it very easy for your users to use the auto-complete feature to find the right function.
 
 ## Add documentation
 
