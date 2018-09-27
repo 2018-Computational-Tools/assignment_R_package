@@ -1,9 +1,14 @@
 # Package Template
 
+## Clone repository
+
+ - clone this repository to your desktop
+ - open the `package.Rproj` to load the project into RStudio
+
 ## Setup Package
 
  - turn this repository into an R package: `devtools::create_description()`
- - rename the package by changing the name in the `DESCRIPTION` file
+ - rename the package by changing the name in the `DESCRIPTION` file (note, no spaces or `-` allowed)
  
 ## Add function(s)
  
