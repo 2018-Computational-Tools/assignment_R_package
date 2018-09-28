@@ -52,6 +52,11 @@
       ggplot2
    ```
 
+### Alternative to imports
+
+ - alternatively (and preferred by some), add packages whose functions you use in the `DESCRIPTION` file (as detailed above) but then call the functions directly via the `package::function` syntax (e.g. `dplyr::select`). That way they don't need to be imported by the NAMESPACE and you don't need to document with `@importFrom`.
+ - a mix of both approaches is possible (e.g. `@importFrom` some function you use a lot and call rare functions via `package::function`)
+
 ## Add testing
 
  - set up the testing environment: `devtools::use_testthat()`
