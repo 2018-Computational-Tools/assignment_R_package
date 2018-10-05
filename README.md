@@ -4,6 +4,7 @@
 
  - clone this repository to your desktop
  - open the `package.Rproj` to load the project into RStudio
+ - you may have to `install.packages(c("devtools", "testthat"))`
 
 ## Setup Package
 
@@ -68,6 +69,7 @@
     })
    ```
  - run all package tests: `devtools::test()` (`Ctrl/Cmd` + `Shift` + `T`)
+ - note: you can enable auto run of tests whenever you make a change in the code by running `testthat::auto_test_package()`
 
 ## Add a license
 
