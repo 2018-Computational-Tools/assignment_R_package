@@ -3,5 +3,4 @@
 "_PACKAGE"
 
 # keep track of functions imported from other packages
-#' @importFrom methods is
 NULL
