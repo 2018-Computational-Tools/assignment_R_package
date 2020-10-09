@@ -47,7 +47,7 @@
  - run `pkgdown::build_site()` to demo your documentation web site
  - by default, this will generate your repository README as the front page, a reference page with all your functions and their documentation, as well as a list of articles based on your vignettes (more on vignettes later)
  - however, `pkgdown` is extremely customizable and you can specify how your page should be structured and styled using the `_pgkdown.yml` file. For details, check out the [pgkdown website](https://pkgdown.r-lib.org) (generated itself by `pkgdown`...)
- - this repo is set up to generate the `pkgdown` online documentation automatically after every push to the master branch once you enable [**GitHub actions**](/actions) for your repository and select the `gh-pages` branch as **Source** in your repository **Settings** under **GitHub Pages**. The resulting documentation page becomes available at https://cub-computational-tools.github.io/YOUR_REPO_NAME/ once built successfully for the first time.
+ - this repo is set up to generate the `pkgdown` online documentation automatically after every push to the master branch once you enable [**GitHub actions**](actions) for your repository and select the `gh-pages` branch as **Source** in your repository **Settings** under **GitHub Pages**. The resulting documentation page becomes available at https://cub-computational-tools.github.io/YOUR_REPO_NAME/ once built successfully for the first time.
 
 ## Add testing
 
@@ -75,7 +75,7 @@
 ## Continuous integration
 
  - continuous integration is the concept that for every code change, all the tests you wrote should be run *automatically* so problems can be identified as soon as they occur
- - to enable continuous integration, enable [**GitHub actions**](/actions) for your repository (you probably have done so already in the section on online documentation) and run `usethis::use_github_action_check_standard()` in your console. Copy the resulting badge code at the top of your README.md file.
+ - to enable continuous integration, enable [**GitHub actions**](actions) for your repository (you probably have done so already in the section on online documentation) and run `usethis::use_github_action_check_standard()` in your console. Copy the resulting badge code at the top of your README.md file.
  - push to GitHub and follow the badge link to see how well your package works on different operating systems 
  - Note: continuous integration is only as good as your tests! writing good tests prevents future problems and pays off manyfold
 
